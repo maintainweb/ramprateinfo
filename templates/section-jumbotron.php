@@ -9,17 +9,9 @@ $link = get_sub_field('link');
 $section_id = get_sub_field('id');
 
 get_template_part('templates/content', 'section-background'); ?>
-<style>
-  .sky-animation {
-    background-size: 75%!important;
-
-  }
-</style>
-<section id="<?php echo $section_id; ?>" class="sky-animation single-page-section single-page-section-jumbotron single-page-section-<?php echo $r; ?>" <?php get_template_part('templates/data', 'stellar'); ?>>
+<section id="<?php echo $section_id; ?>" class="single-page-section single-page-section-jumbotron single-page-section-<?php echo $r; ?>" <?php get_template_part('templates/data', 'stellar'); ?>>
     <div class="container">
       <div class="jumbotron">
-      <a href="/book-flight-plan-vacation/"><div class="paper-airplane-animation"></div></a>
-      <a href="/book-flight-plan-vacation/"><div class="airplane-animation"></div></a>
         <h1><?php echo $heading; ?></h1>
         <p class="lead"><?php echo $lead; ?></p>
           <?php if( $link ):

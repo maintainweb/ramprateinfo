@@ -18,7 +18,7 @@ $rgba_clear = hex2rgba($background_color, 0.01);
     $caption = $background_image['caption'];
 
     // sizes
-    $size = 'medium';
+    $size = 'large';
     $med = $background_image['sizes'][ $size ];
     $medwidth = $background_image['sizes'][ $size . '-width' ];
     $medheight = $background_image['sizes'][ $size . '-height' ];

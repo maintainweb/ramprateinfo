@@ -19,9 +19,9 @@
       ?>
       <div class="hidden-xs nav navbar-nav navbar-right">
         <?php if ( is_user_logged_in() ) { ?>
-          <div><a class="btn btn-primary" href="/my-account/">My Account</a></div>
+          <div><a class="btn btn-primary" href="#">Admin</a></div>
         <?php } else { ?>
-          <div><a class="btn btn-primary" href="/create-account/">Call to Action</a></div>
+          <div><a class="btn btn-primary" href="#">Login</a></div>
         <?php } ?>
       </div>
     </nav>
