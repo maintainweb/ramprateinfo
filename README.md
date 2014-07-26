@@ -27,6 +27,9 @@ Roots is a WordPress starter theme based on [HTML5 Boilerplate](http://html5boil
 * Cleaner HTML output of navigation menus
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
 * [Multilingual ready](http://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/roots-translations)
+* FontAwesome
+* Stellar.js (optional)
+* Sequence.js (optional)
 
 ### Additional features
 
