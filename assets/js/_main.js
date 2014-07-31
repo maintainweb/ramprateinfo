@@ -37,6 +37,8 @@ var Roots = {
           top: 90
         }
       });
+
+      // $('.collapse').collapse();
     }
   },
   // Home page
