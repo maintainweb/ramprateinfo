@@ -1,10 +1,12 @@
-@navbar-custom-color:             #777;
+  @navbar-custom-color:             #777;
 @navbar-custom-bg:                #FFF;
 @navbar-custom-border:            darken(@navbar-custom-bg, 6.5%);
 @navbar-height:                   90px;
 
 
 .banner {
+  font-family: @font-family-sans-serif;
+  text-transform: uppercase;
    &.navbar-custom {
       background-color: fade(@navbar-custom-bg, 100%);
       .transition(0.5s 0 all ease);
@@ -28,6 +30,7 @@
       margin-right: 40px;
       background-color: transparent;
    }
+   /*
    .navbar-left {
       width: 50%;
    }
@@ -37,7 +40,7 @@
         display: inline-block;
         padding-top: (@navbar-padding-vertical - (@font-size-base * 0.5));
       }
-   }
+   }*/
 }
 
 body.logged-in.admin-bar {
